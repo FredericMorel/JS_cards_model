@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.list-card {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    width: 320px;
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    transition: 1s ease-in-out all;
+}
+
+
+
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: none;
+    transition: 1s ease-in-out;
+
+}
+
+.footer span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
